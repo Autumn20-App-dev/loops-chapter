@@ -18,4 +18,8 @@
 # 20
 
 p "Enter a number:"
+num = gets.chomp.to_i
 
+10.times do |multi| 
+  puts num * (multi + 1)
+end

@@ -14,3 +14,10 @@
 # "apple is 5 letters long!"
 
 p "Enter a word:"
+
+word= gets.chomp
+
+word.length.times do |len|
+  puts len + 1
+end
+puts "#{word} is #{word.length} letters long!"
